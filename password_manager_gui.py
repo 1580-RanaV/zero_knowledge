@@ -8,43 +8,43 @@ class PasswordManagerApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Zero-Knowledge Password Manager")
-        self.root.configure(bg="black")  # Set background color to black
+        self.root.configure(bg="black")  
         
-        # Username
+        # username
         tk.Label(root, text="Username:", fg="white", bg="black").grid(row=0, column=0, padx=10, pady=10)
         self.username_entry = tk.Entry(root)
         self.username_entry.grid(row=0, column=1, padx=10, pady=10)
         
-        # Master Password
+        # master Password
         tk.Label(root, text="Master Password:", fg="white", bg="black").grid(row=1, column=0, padx=10, pady=10)
         self.password_entry = tk.Entry(root, show='*')
         self.password_entry.grid(row=1, column=1, padx=10, pady=10)
         
-        # Login Button
+        # login
         self.login_button = tk.Button(root, text="Login", command=self.login, bg="white")
         self.login_button.grid(row=2, column=0, columnspan=2, pady=10)
         
-        # Create User Button
+        # creating user
         self.create_user_button = tk.Button(root, text="Create User", command=self.create_user_popup, bg="white")
         self.create_user_button.grid(row=3, column=0, columnspan=2, pady=10)
 
-        # View Password Button
+        # view passworddd 
         self.view_button = tk.Button(root, text="View Password", state=tk.DISABLED, command=self.show_view_fields, bg="white")
         self.view_button.grid(row=4, column=0, pady=10)
         
-        # Save Password Button
+        # save pwd
         self.save_button = tk.Button(root, text="Save Password", state=tk.DISABLED, command=self.show_save_fields, bg="white")
         self.save_button.grid(row=4, column=1, pady=10)
         
-        # Service Name
+        # site
         self.service_label = tk.Label(root, text="Service:", fg="white", bg="black")
         self.service_entry = tk.Entry(root)
 
-        # Service Password (For Saving)
+        # site password to save
         self.service_password_label = tk.Label(root, text="Service Password:", fg="white", bg="black")
         self.service_password_entry = tk.Entry(root)
         
-        # Bind the view and save actions to functions
+        # bind the view and save actions to functions
         self.view_action_button = None
         self.save_action_button = None
 
@@ -122,12 +122,12 @@ class PasswordManagerApp:
         create_window.title("Create User")
         create_window.configure(bg="black")
 
-        # Username
+        # username
         tk.Label(create_window, text="Username:", fg="white", bg="black").grid(row=0, column=0, padx=10, pady=10)
         username_entry = tk.Entry(create_window)
         username_entry.grid(row=0, column=1, padx=10, pady=10)
 
-        # Master Password
+        # master pwd
         tk.Label(create_window, text="Master Password:", fg="white", bg="black").grid(row=1, column=0, padx=10, pady=10)
         password_entry = tk.Entry(create_window, show='*')
         password_entry.grid(row=1, column=1, padx=10, pady=10)
@@ -142,10 +142,10 @@ class PasswordManagerApp:
             except ValueError:
                 messagebox.showerror("Error", "User already exists!")
 
-        # Create User Button
+        # create usewr
         tk.Button(create_window, text="Create User", command=create_user_action, bg="white").grid(row=2, column=0, columnspan=2, pady=10)
 
-# Run the application
+# run
 if __name__ == "__main__":
     root = tk.Tk()
     app = PasswordManagerApp(root)
