@@ -1,12 +1,5 @@
 # ZERO KNWOLEDGE : PASSWORD MANAGER
 
-<br>
-we can see all the files here :
-<br>
-![Screenshot 2024-08-20 180228](https://github.com/user-attachments/assets/5d30de67-86fe-41a9-b94a-7ea51ff2f786)
-
-<br>
-
 prompt to ask to create new account or login to the existing user:
 <br>
 ![Screenshot 2024-08-20 181004](https://github.com/user-attachments/assets/6cea162c-1f33-4f2b-bd6f-ffe07ae2fa70)
