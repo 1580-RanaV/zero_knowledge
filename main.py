@@ -7,17 +7,17 @@ def main():
     password = input("Enter master password: ")
     
     try:
-        # Attempt to create a new user
+        # create a new user
         create_user(username, password)
         print("User created successfully.")
     except ValueError:
         print("User already exists. Proceeding with authentication...")
 
-    # Authenticate user
+    # auth user
     if authenticate_user(username, password):
         print("Authenticated successfully.")
         
-        # Example option to save or retrieve a password
+        # prkompt
         action = input("Do you want to save a new password or view an existing one? (save/view): ").strip().lower()
 
         if action == "save":
