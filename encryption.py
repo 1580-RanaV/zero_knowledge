@@ -3,7 +3,7 @@ import base64
 import hashlib
 
 def generate_key(password: str) -> bytes:
-    # Generate a key based on the master password
+    # genratingg a key using master password
     return base64.urlsafe_b64encode(hashlib.sha256(password.encode()).digest())
 
 def encrypt_password(password: str, master_password: str) -> str:
