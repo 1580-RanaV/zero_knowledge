@@ -20,10 +20,9 @@ the master password has been hashed and stored as you can see:
 <br>
 ![Screenshot 2024-08-20 181037](https://github.com/user-attachments/assets/c52e5b94-7cf6-4626-b3eb-ba741760f39d)
 <br>
-
-now login into account and choose to save a password:
-<br>
 ![Screenshot 2024-08-20 181053](https://github.com/user-attachments/assets/13f7b646-6447-4adf-b71c-9147a23a3d2c)
+<br>
+now login into account and choose to save a password:
 <br>
 ![Screenshot 2024-08-20 181136](https://github.com/user-attachments/assets/ad7f41de-c9c9-43b1-b2c7-fcf0e512daaa)
 <br>
