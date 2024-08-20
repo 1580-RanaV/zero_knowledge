@@ -13,6 +13,8 @@ the master password has been hashed and stored as you can see:
 <br>
 ![Screenshot 2024-08-20 181037](https://github.com/user-attachments/assets/c52e5b94-7cf6-4626-b3eb-ba741760f39d)
 <br>
+the json file:
+<br>
 ![Screenshot 2024-08-20 181053](https://github.com/user-attachments/assets/13f7b646-6447-4adf-b71c-9147a23a3d2c)
 <br>
 now login into account and choose to save a password:
@@ -22,6 +24,8 @@ now login into account and choose to save a password:
 we can see here that the password is stored in a folder and is hashed for privacy:
 <br>
 ![Screenshot 2024-08-20 181146](https://github.com/user-attachments/assets/27d64ac6-bab6-4bd8-987e-c499ab0b9b6c)
+<br>
+the json file:
 <br>
 ![Screenshot 2024-08-20 181152](https://github.com/user-attachments/assets/f5a01c92-1d29-4e34-99e2-ec42bc50f04f)
 <br>
