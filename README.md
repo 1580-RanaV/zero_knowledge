@@ -31,9 +31,8 @@ we can see here that the password is stored in a folder and is hashed for privac
 <br>
 ![Screenshot 2024-08-20 181146](https://github.com/user-attachments/assets/27d64ac6-bab6-4bd8-987e-c499ab0b9b6c)
 <br>
-
-now login into the user and view the password, the decrypted password will be appeared:
-<br>
 ![Screenshot 2024-08-20 181152](https://github.com/user-attachments/assets/f5a01c92-1d29-4e34-99e2-ec42bc50f04f)
+<br>
+now login into the user and view the password, the decrypted password will be appeared:
 <br>
 ![Screenshot 2024-08-20 181251](https://github.com/user-attachments/assets/957bfe8c-c126-4fbb-a322-3c35064f9aff)
