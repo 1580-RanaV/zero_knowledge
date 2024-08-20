@@ -1,4 +1,4 @@
-# ZERO KNWOLEDGE : PASSWORD MANAGER
+# ZERO KNOWLEDGE : PASSWORD MANAGER
 
 prompt to ask to create new account or login to the existing user:
 <br>
