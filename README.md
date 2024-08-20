@@ -3,7 +3,8 @@
 <br>
 we can see all the files here :
 <br>
-![Screenshot 2024-08-20 180228](https://github.com/user-attachments/assets/443d97d3-53b5-4300-98bd-1240517354bc)
+![Screenshot 2024-08-20 180228](https://github.com/user-attachments/assets/5d30de67-86fe-41a9-b94a-7ea51ff2f786)
+
 <br>
 
 prompt to ask to create new account or login to the existing user:
@@ -24,14 +25,15 @@ now login into account and choose to save a password:
 <br>
 ![Screenshot 2024-08-20 181053](https://github.com/user-attachments/assets/13f7b646-6447-4adf-b71c-9147a23a3d2c)
 <br>
-we can see here that the password is stored in a folder and is hashed for privacy:
-<br>
 ![Screenshot 2024-08-20 181136](https://github.com/user-attachments/assets/ad7f41de-c9c9-43b1-b2c7-fcf0e512daaa)
+<br>
+we can see here that the password is stored in a folder and is hashed for privacy:
 <br>
 ![Screenshot 2024-08-20 181146](https://github.com/user-attachments/assets/27d64ac6-bab6-4bd8-987e-c499ab0b9b6c)
 <br>
 
-
+now login into the user and view the password, the decrypted password will be appeared:
+<br>
 ![Screenshot 2024-08-20 181152](https://github.com/user-attachments/assets/f5a01c92-1d29-4e34-99e2-ec42bc50f04f)
 <br>
 ![Screenshot 2024-08-20 181251](https://github.com/user-attachments/assets/957bfe8c-c126-4fbb-a322-3c35064f9aff)
